@@ -1,0 +1,35 @@
+/* students.css */
+.student-life-container {
+  margin-top: 20px;
+}
+
+.student-life-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-life-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.student-life-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+}
+
+.student-life-image {
+  width: 100%;
+  height: auto;
+}
+
+.student-life-description {
+  padding: 15px;
+  font-size: 15px !important;
+  font-weight: normal !important;
+}

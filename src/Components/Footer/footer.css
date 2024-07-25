@@ -1,0 +1,27 @@
+/* Footer.css */
+
+footer {
+    /* background-color: #c5cacae6; */
+    
+      background: linear-gradient(135deg, #FF6347, #89CFF0);
+      /* Fallback for older browsers */
+      background: -webkit-linear-gradient(135deg, #FF6347, #89CFF0);
+      background: -moz-linear-gradient(135deg, #FF6347, #89CFF0);
+      background: -o-linear-gradient(135deg, #FF6347, #89CFF0);
+      background: -ms-linear-gradient(135deg, #FF6347,#89CFF0);
+  
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+
+  }
+  

@@ -1,0 +1,43 @@
+/* Home.css */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2.5em;
+  }
+  
+  .container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .carousel-caption p {
+    color: #ddd;
+  }
+  
